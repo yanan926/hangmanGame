@@ -1,2 +1,3 @@
-# hangmanGame implemented by bootstrap and java SpringBoot
-Assigment for CMPT 213 course
+# hangmanGame
+Assigment for CMPT 213 course impletemented by Bootstrap and Java SpringBoot
+
