@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/styles/main.css}" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>CMPT 213 Online Hangman Game</title>
+</head>
+<body>
+<div class="container text-center">
+    <h1>Welcome to the Hangman Game</h1>
+    <img class="d-block mt-4 mx-auto" th:src="@{/images/images.jpg}"/>
+    <form action="#" th:action="@{/game}" method="post" class="mt-4">
+        <input type="submit" value="Start A New Game" class="btn btn-success"/>
+    </form>
+
+</div>
+</body>
+</html>
